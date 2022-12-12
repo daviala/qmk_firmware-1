@@ -1,5 +1,5 @@
 /*
-Copyright 2022 Mechlovin'
+Copyright 2021 T.Shinohara
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,14 +17,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "quantum.h"
-
-#ifdef KEYBOARD_mechlovin_zed65_no_backlight_retro66
-    #include "retro66.h"
-#elif KEYBOARD_mechlovin_zed65_no_backlight_wearhaus66
-    #include "wearhaus66.h"
-#elif KEYBOARD_mechlovin_zed65_no_backlight_cor65
-    #include "cor65.h"
-#elif KEYBOARD_mechlovin_zed65_mono_led
-    #include "mono_led.h"
-#endif
+#include "config_common.h"
